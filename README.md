@@ -91,8 +91,8 @@
 ✅ **1. Clone the Repo**
 
 ```bash
-git clone https://github.com/your-username/livello-iot-challenge.git
-cd livello-iot-challenge
+git clone https://github.com/luciferhasan/LIVELLO-IoT_Challenge.git
+cd LIVELLO-IoT_Challenge
 ```
 ✅ **2. Make the Start Script Executable**
 
