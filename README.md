@@ -101,6 +101,7 @@ chmod +x start.sh
 ```
 
 ✅ **3. Start All Services**
+Ensure you have Docker-Compose pre installed
 
 ```bash
 ./start.sh
