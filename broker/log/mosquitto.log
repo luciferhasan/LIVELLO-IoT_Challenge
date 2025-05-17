@@ -1,0 +1,66 @@
+1747385607: mosquitto version 2.0.21 starting
+1747385607: Config loaded from /mosquitto/config/mosquitto.conf.
+1747385607: Opening ipv4 listen socket on port 1883.
+1747385607: Opening ipv6 listen socket on port 1883.
+1747385607: mosquitto version 2.0.21 running
+1747385754: New connection from 172.27.0.1:55590 on port 1883.
+1747385754: New client connected from 172.27.0.1:55590 as test-client-83d04b77-bc5a-44d3-a96c-b5cb0b21ad0c (p5, c1, k60).
+1747385755: Client test-client-83d04b77-bc5a-44d3-a96c-b5cb0b21ad0c disconnected.
+1747385763: New connection from 172.27.0.1:43728 on port 1883.
+1747385763: New client connected from 172.27.0.1:43728 as test-client-83d04b77-bc5a-44d3-a96c-b5cb0b21ad0c (p5, c1, k60).
+1747385764: Client test-client-83d04b77-bc5a-44d3-a96c-b5cb0b21ad0c disconnected.
+1747385894: mosquitto version 2.0.21 terminating
+1747385894: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747386007: mosquitto version 2.0.21 starting
+1747386007: Config loaded from /mosquitto/config/mosquitto.conf.
+1747386007: Opening ipv4 listen socket on port 1883.
+1747386007: Opening ipv6 listen socket on port 1883.
+1747386007: mosquitto version 2.0.21 running
+1747386047: New connection from 172.28.0.1:44666 on port 1883.
+1747386047: New client connected from 172.28.0.1:44666 as test-client-c201a7fc-3cca-4175-b344-d8f15f9cab50 (p5, c1, k60).
+1747386048: Client test-client-c201a7fc-3cca-4175-b344-d8f15f9cab50 disconnected.
+1747386261: mosquitto version 2.0.21 terminating
+1747386261: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747386310: mosquitto version 2.0.21 starting
+1747386310: Config loaded from /mosquitto/config/mosquitto.conf.
+1747386310: Opening ipv4 listen socket on port 1883.
+1747386310: Opening ipv6 listen socket on port 1883.
+1747386310: mosquitto version 2.0.21 running
+1747386311: New connection from 172.29.0.4:36506 on port 1883.
+1747386311: New client connected from 172.29.0.4:36506 as iot-client-e2366a62-23a5-4dda-8870-f56d23592e62 (p5, c1, k60).
+1747386334: New connection from 172.29.0.1:55472 on port 1883.
+1747386334: New client connected from 172.29.0.1:55472 as test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 (p5, c1, k60).
+1747386335: Client test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 disconnected.
+1747386340: New connection from 172.29.0.1:41500 on port 1883.
+1747386340: New client connected from 172.29.0.1:41500 as test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 (p5, c1, k60).
+1747386341: Client test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 disconnected.
+1747386408: New connection from 172.29.0.1:36632 on port 1883.
+1747386408: New connection from 172.29.0.1:36644 on port 1883.
+1747386408: New client connected from 172.29.0.1:36632 as test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 (p5, c1, k60).
+1747386408: Client test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 already connected, closing old connection.
+1747386408: New client connected from 172.29.0.1:36644 as test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 (p5, c0, k60).
+1747386408: Client test-client-cdd5c771-25b4-4c02-8af4-851b7a1464c4 disconnected.
+1747387115: New connection from 172.29.0.1:60180 on port 1883.
+1747387115: New client connected from 172.29.0.1:60180 as test-client-61d1adf9-39a7-4446-9d2a-b5d905422291 (p5, c1, k60).
+1747387116: Client test-client-61d1adf9-39a7-4446-9d2a-b5d905422291 disconnected.
+1747387757: New connection from 172.29.0.1:54052 on port 1883.
+1747387757: New client connected from 172.29.0.1:54052 as test-client-6666b86f-6274-4c9d-9f21-384ad2a387ce (p5, c1, k60).
+1747387758: Client test-client-6666b86f-6274-4c9d-9f21-384ad2a387ce disconnected.
+1747387799: New connection from 172.29.0.1:53876 on port 1883.
+1747387799: New client connected from 172.29.0.1:53876 as test-client-6666b86f-6274-4c9d-9f21-384ad2a387ce (p5, c1, k60).
+1747387800: Client test-client-6666b86f-6274-4c9d-9f21-384ad2a387ce disconnected.
+1747388111: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747389912: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747391713: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747393514: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747394556: Client iot-client-e2366a62-23a5-4dda-8870-f56d23592e62 has exceeded timeout, disconnecting.
+1747394562: New connection from 172.29.0.4:36296 on port 1883.
+1747394562: New client connected from 172.29.0.4:36296 as iot-client-e2366a62-23a5-4dda-8870-f56d23592e62 (p5, c0, k60).
+1747395315: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747397116: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747420357: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747420357: Client iot-client-e2366a62-23a5-4dda-8870-f56d23592e62 has exceeded timeout, disconnecting.
+1747420363: New connection from 172.29.0.4:58494 on port 1883.
+1747420363: New client connected from 172.29.0.4:58494 as iot-client-e2366a62-23a5-4dda-8870-f56d23592e62 (p5, c0, k60).
+1747420380: mosquitto version 2.0.21 terminating
+1747420380: Saving in-memory database to /mosquitto/data//mosquitto.db.

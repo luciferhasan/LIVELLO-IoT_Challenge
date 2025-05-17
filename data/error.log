@@ -1,0 +1,39 @@
+2025-05-16 09:06:48,455 - ERROR - [ERROR HANDLE PKG]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 380, in __call__
+    result = self._handle_packet(cmd, packet)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 214, in _handle_packet
+    handler(cmd, packet)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 345, in _handle_publish_packet
+    run_coroutine_or_function(self.on_message, self, print_topic, packet, qos, properties)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/utils.py", line 117, in run_coroutine_or_function
+    func(*args, **kwargs)
+  File "/app/client.py", line 35, in on_message
+    event = DeviceEvent(**data)  # ✅ Schema validation using Pydantic
+TypeError: eventSchema.DeviceEvent() argument after ** must be a mapping, not str
+2025-05-16 09:18:35,937 - ERROR - [ERROR HANDLE PKG]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 380, in __call__
+    result = self._handle_packet(cmd, packet)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 214, in _handle_packet
+    handler(cmd, packet)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 345, in _handle_publish_packet
+    run_coroutine_or_function(self.on_message, self, print_topic, packet, qos, properties)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/utils.py", line 117, in run_coroutine_or_function
+    func(*args, **kwargs)
+  File "/app/client.py", line 35, in on_message
+    event = DeviceEvent(**data)  # ✅ Schema validation using Pydantic
+TypeError: eventSchema.DeviceEvent() argument after ** must be a mapping, not str
+2025-05-16 09:29:59,774 - ERROR - [ERROR HANDLE PKG]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 380, in __call__
+    result = self._handle_packet(cmd, packet)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 214, in _handle_packet
+    handler(cmd, packet)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/handler.py", line 345, in _handle_publish_packet
+    run_coroutine_or_function(self.on_message, self, print_topic, packet, qos, properties)
+  File "/usr/local/lib/python3.10/site-packages/gmqtt/mqtt/utils.py", line 117, in run_coroutine_or_function
+    func(*args, **kwargs)
+  File "/app/client.py", line 35, in on_message
+    event = DeviceEvent(**data)  # ✅ Schema validation using Pydantic
+TypeError: eventSchema.DeviceEvent() argument after ** must be a mapping, not str

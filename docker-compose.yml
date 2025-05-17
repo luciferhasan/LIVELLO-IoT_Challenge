@@ -1,0 +1,50 @@
+version: '3.9'
+
+services:
+  mqtt-broker:
+    build: ./broker
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./broker/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./broker/data:/mosquitto/data
+      - ./broker/log:/mosquitto/log
+
+
+  mqtt-client:
+    build: ./mqtt_client
+    container_name: mqtt-client
+    depends_on:
+      - mqtt-broker
+    environment:
+      - MQTT_BROKER_HOST=mqtt-broker
+      - ERROR_FILE_PATH=/app/error.log
+      - DB_PATH=/app/events.db
+    volumes:
+      - ./data/error.log:/app/error.log
+      - ./data/events.db:/app/events.db
+
+
+  rest-api:
+    build: ./rest_api
+    container_name: rest-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DB_PATH=/app/data/events.db
+
+  test-runner:
+    build: ./test_runner
+    container_name: test-runner
+    depends_on:
+      - mqtt-client
+      - rest-api
+    environment:
+      - MQTT_BROKER_HOST=mqtt-broker
+      - ERROR_LOG_PATH=/app/data/error.log
+    volumes:
+      - ./data:/app/data
+    network_mode: host
